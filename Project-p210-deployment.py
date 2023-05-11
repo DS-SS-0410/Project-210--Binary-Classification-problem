@@ -27,7 +27,7 @@ df = user_input_features()
 st.subheader('User Input parameters')
 st.write(df)
 
-fakebills_nona = pd.read_csv("fake_bills.csv", ';')
+fakebills_nona = pd.read_csv("fake_bills.csv")
 fakebills_nona = fakebills_nona.dropna()
 
 X= fakebills_nona.iloc[:, 1:]
