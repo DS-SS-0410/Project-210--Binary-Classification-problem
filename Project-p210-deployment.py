@@ -1,7 +1,7 @@
 
 import pandas as pd
 import streamlit as st 
-import sklearn
+pip install scikit-learn
 from sklearn.linear_model import LogisticRegression
 
 st.title('Fake Bills Classification: Logistic Regression')
